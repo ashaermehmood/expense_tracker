@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "amount": 400.0,
+        "category": "Food",
+        "description": "lunch",
+        "date": "2026-7-14"
+    },
+    {
+        "id": 2,
+        "amount": 600.0,
+        "category": "Food",
+        "description": "Dinner",
+        "date": "2026-07-14"
+    }
+]
