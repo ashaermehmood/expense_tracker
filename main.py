@@ -126,6 +126,7 @@ def view_expenses(expenses):
 
 def search_by_category(expenses):
     """Find and display all expenses matching a given category (case-insensitive)."""
+     # Case-insensitive match so "Food" and "food" both work
     print("\n--- Search by Category ---")
     if not expenses:
         print("No expenses recorded yet.")
