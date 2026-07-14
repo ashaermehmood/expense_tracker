@@ -112,6 +112,7 @@ def add_expense(expenses):
 
 def view_expenses(expenses):
     """Print all expenses in a readable table format."""
+     # Sorted by date for easier reading
     print("\n--- All Expenses ---")
     if not expenses:
         print("No expenses recorded yet.")
