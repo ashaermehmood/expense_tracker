@@ -250,6 +250,7 @@ def edit_expense(expenses):
 
 def sort_expenses(expenses):
     """Display expenses sorted by amount or date, ascending or descending."""
+      # Lets user choose sort key and order without modifying saved data
     print("\n--- Sort Expenses ---")
     if not expenses:
         print("No expenses recorded yet.")
