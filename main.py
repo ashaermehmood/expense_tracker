@@ -168,6 +168,7 @@ def show_total(expenses):
 
 def delete_expense(expenses):
     """Delete an expense by its ID, handling nonexistent IDs gracefully."""
+    # Asks for confirmation before deleting
     print("\n--- Delete Expense ---")
     if not expenses:
         print("No expenses recorded yet.")
