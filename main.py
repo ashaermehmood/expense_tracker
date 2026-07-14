@@ -91,6 +91,7 @@ def get_valid_date():
 
 def add_expense(expenses):
     """Prompt the user for expense details and append a new expense."""
+    # Validates  amount  and date  before saving 
     print("\n--- Add Expense ---")
     amount = get_valid_amount()
     category = input("Category: ").strip() or "Uncategorized"
