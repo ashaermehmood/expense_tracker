@@ -147,6 +147,7 @@ def search_by_category(expenses):
 
 def show_total(expenses):
     """Display the total of all recorded expenses, and a per-category breakdown."""
+    # Uses accumulator pattern to sum amounts
     print("\n--- Total Expenses ---")
     if not expenses:
         print("No expenses recorded yet.")
