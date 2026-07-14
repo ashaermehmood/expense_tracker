@@ -201,6 +201,7 @@ def delete_expense(expenses):
 
 def edit_expense(expenses):
     """Edit an existing expense's fields, keeping the current value on blank input."""
+     # Blank input keeps the existing value unchanged
     print("\n--- Edit Expense ---")
     if not expenses:
         print("No expenses recorded yet.")
